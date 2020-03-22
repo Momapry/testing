@@ -1,0 +1,197 @@
+/* custom style */
+
+.header{
+    position: fixed;
+    padding-bottom: 50px;
+}
+body{
+    background-color: #fff;
+    font-family: Calibri,Candara,Segoe,"segoe UI",Optima,Arial,sans-serif;
+    font-size: 120%;   
+}
+p{
+	margin-top: 0;
+	margin-bottom: 20px;
+	line-height: 1.4;
+}
+.italic{
+	font-style:italic;  
+}
+p.bold{
+	font-weight:bold;
+}
+.container{
+    padding-bottom: 30px;
+    padding-top: 180px;
+    background-color: #fff;
+    margin-left: 5%;
+}
+
+.collapse navbar-collapse{
+	margin-left:0;
+    border-collapse: 0;  
+}
+
+.nav-item{
+	display: inline-block !important;
+	margin-left:3%;
+	padding-left: 8%;
+	padding-top: 10%;
+}
+
+.ul .navbar-nav{
+    padding-top: 10%;
+    padding-left: 20%;   
+}
+
+.a nav-link{	
+	padding-right: 10px;
+    }
+.navbar-brand {
+    display:inline-flex;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    padding-left: 1%;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+    line-height: inherit;
+    white-space: nowrap;
+    margin-left:auto;    
+}
+.bg-dark {
+    background-color: #9999!important;
+    background-image: url(icerosesblurred.jpg);
+    height: 150px;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(000000,000000,000000,100);
+    font-size: 1.50rem;
+    padding: 4%; 
+    padding-left: 1%;
+	padding-top: 1%;
+}
+.container 2{
+margin-left: 10%;
+height:auto; 
+}
+.col-md-4 left {
+border-radius: 5%;
+padding:5%;
+float:left;
+}
+.portrett{
+    float: left;
+    display: block;
+    padding-top:0px;
+    padding-bottom: 10px;
+	margin-right: 70%;
+}
+.gallery{
+    padding-bottom: 30px;
+}
+.carousel-inner{
+    width:100%;
+    height:200px; !important;
+}
+.corouselgallery {
+    padding: 10px; 
+}
+.someicon {
+    margin-right: 1rem!important;
+    height: 20px;
+	}
+.form-group{
+    display: block;
+}
+.btn btn-primary{
+  padding-bottom: 20px; 
+    
+}
+.col-md-8 right 2{
+border: 10px solid red;
+}
+.lead{
+    padding-top: 20px;
+}
+.row 2 col 2{
+	width:400px;
+	min-height: 100%;
+	margin:auto;
+	z-index: 1;
+	position:absolute;
+	left:50%;
+	margin-left:100px;	
+}
+.row 3 col 2{
+    height:200px;
+}
+.experience-list{
+	padding-left: 0px;
+	list-style: none;
+}
+.publicationslist{
+	padding-left: 18px;
+	list-style: circle;
+}
+.li2{
+	padding:10px;
+}
+.experience-li{
+	padding-top: 10px;
+	text-decoration: none;
+	list-style:none;
+}
+.col-md-12-footer{
+	background-image: url(Pictures/iceroses_blurred.jpg);
+	background-size: cover;
+    width: 110%;
+	height:40px;
+    background-position: center;
+}
+.c{
+	margin-left: 3%;
+	padding-top: 5px;
+	padding-right: 3px;
+	padding-left: 5px;
+	height:16px;
+    width: 16px;
+    float:left;
+}
+.ct{
+    margin-left: 10%;
+	font-size: 10px;
+    padding-top: 3px;
+    padding-left: 0px;
+    padding-right: 2px;
+	margin-left: 20px;
+}
+	
+@media (max-width:767px){
+
+	.navbar-dark .navbar-nav .nav-link{
+		color: rgba(000000,000000,000000,100);
+		background-color: darkgray;
+		padding-left: 05%;
+		padding-top: 0%;
+		padding-bottom: 3%;
+	}
+	.navbar-dark{
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+	.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+		color: blue;}
+	.nav-item{
+	display: inline;
+	margin-left:0;
+	padding: 0%;
+	}
+	.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255,255);
+	}
+	}
